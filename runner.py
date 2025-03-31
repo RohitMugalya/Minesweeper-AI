@@ -214,7 +214,7 @@ def main():
                     game.mark_safe(safe, Minesweeper.BOT)
                     agent.mark_safe(safe)
                     agent.add_knowledge(game.get_neighbors(safe), game.get_count(safe))
-            elif is_left_click and not game.is_flagged(cell := get_coordinate()):
+            elif is_left_click and not game.is_flagged(cell := get_coordinate()) and ensure_coordinate(cell):
                 if game.is_mine(cell):
                     detonate(game, cell)
                 game.mark_safe(cell)
