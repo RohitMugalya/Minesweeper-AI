@@ -60,7 +60,7 @@ Enjoy playing Minesweeper with an intelligent AI assistant!
 
 Below is a screenshot of the Minesweeper game interface:  
 
-![Minesweeper GUI Interface](images/gui_interface.png)  
+![Minesweeper GUI Interface](images/gui_screenshot.png)  
 
 ## Adjustable Variables and Parameters  
 
@@ -74,3 +74,7 @@ You can customize the game experience by modifying the following parameters in t
 For example, increasing `BOARD_HEIGHT` and `BOARD_WIDTH` will create a larger game board, while adjusting `PROBABILITY_MINE` changes the density of mines on the board.  
 
 **Note**: Higher values for `BOARD_HEIGHT` and `BOARD_WIDTH` may result in slower performance due to the complexity of logical evaluations performed by the AI.  
+
+---
+Until next time
+$Happy Coding!$
