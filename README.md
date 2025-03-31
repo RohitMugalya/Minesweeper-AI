@@ -56,6 +56,12 @@ python runner.py
 
 Enjoy playing Minesweeper with an intelligent AI assistant!  
 
+## Screenshot of the GUI Interface  
+
+Below is a screenshot of the Minesweeper game interface:  
+
+![Minesweeper GUI Interface](images/gui_interface.png)  
+
 ## Adjustable Variables and Parameters  
 
 You can customize the game experience by modifying the following parameters in the `runner.py` file:  
